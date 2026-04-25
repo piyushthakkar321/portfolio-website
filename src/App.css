@@ -614,4 +614,10 @@ footer span {
   .contact-section {
     padding: 70px 20px;
   }
+  .trust-line {
+  margin-top: 1.5rem;
+  font-size: 14px;
+  color: #64748b;
+  letter-spacing: 0.3px;
+}
 }
