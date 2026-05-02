@@ -1,4 +1,5 @@
 import "./App.css";
+import { Analytics } from '@vercel/analytics/react';
 
 function App() {
   return (
@@ -227,6 +228,7 @@ function App() {
         <p style={{marginTop: '8px'}}>© 2026 <span>Piyush Digital</span>. All rights reserved.</p>
       </footer>
 
+      <Analytics />
     </div>
   );
 }
